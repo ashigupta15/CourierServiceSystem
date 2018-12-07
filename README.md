@@ -15,3 +15,5 @@ SOFTWARE REQUIREMENTS
 	Data Base			:   SQLite 3.
 
 The Android Application titled “Courier Service Automation System” is helpful for Courier Industry in order to improve their revenue and customer service as well as customer satisfaction. The Automation in courier industry leads to make huge impact on the comfort to users.  User can make request for the service of receiving and to delivering the courier.  The user can use the mobile application to get the service and tracking details of courier. In this app delivery person also allowed to login and get the details about user and courier details. Delivery Person is updating the courier status, thus it sends to user and admin as well. Delivery Person also needs to update the payment details to admin and user by using the application. It is very simple process and made it user friendly. In future can able to have many services to be included in this application.
+
+
