@@ -1,0 +1,90 @@
+*
+{
+	margin:0px;
+	spacing:0px;
+}
+
+@font-face
+{
+	font-family:heading-font;
+	src:url(fonts/AppleChancery.ttf);
+}
+
+article h1
+{
+	font-family: heading-font;
+	font-size:60px;
+	text-transform:capitalize;
+}
+
+.tablestyle th
+{
+	background:#e0e0e0;
+	color:#000000;
+	width:100px;
+}
+
+.tablestyle tr
+{
+	border-top: 1px solid #C1C3D1;
+	color:#666B85;
+	font-size:16px;
+	font-weight:normal;
+	text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+
+.tablestyle tr:hover td
+{
+	background:#4E5066;
+	color:#FFFFFF;
+	border-top: 1px solid #22262e;
+	border-bottom: 1px solid #22262e;
+}
+
+.tablestyle tr:first-child
+{
+	border-top:none;
+}
+
+.tablestyle tr:last-child
+{
+	border-bottom:none;
+}
+
+.tablestyle tr:nth-child(odd) td
+{
+	background:#EEEBEE;
+}
+
+.tablestyle tr:nth-child(odd):hover td
+{
+	background:#4E5066;
+}
+
+.tablestyle tr:last-child td:first-child
+{
+	border-bottom-left-radius:3px;
+}
+
+.tablestyle tr:last-child td:last-child
+{
+	border-bottom-right-radius:3px;
+}
+
+.tablestyle td
+{
+	background:#FFFFFF;
+	padding:8px;
+	text-align:left;
+	vertical-align:middle;
+	font-weight:300;
+	font-size:18px;
+	text-align:center;
+	text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+	border-right: 1px solid #C1C3D1;
+}
+
+.tablestyle td:last-child
+{
+	border-right: 0px;
+}

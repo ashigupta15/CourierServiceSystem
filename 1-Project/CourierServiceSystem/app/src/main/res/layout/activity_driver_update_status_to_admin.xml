@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context="com.ashi.courierservicesystem.DriverUpdateStatusToAdmin">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Please Select One Of Option in Menu"
+        android:id="@+id/textViewResult"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:layout_marginTop="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonFinal"
+        android:layout_below="@+id/textViewResult"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:background="@drawable/buttonborder"
+        android:visibility="invisible" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Status"
+        android:background="@drawable/buttonborder"
+        android:id="@+id/buttonUpdate"
+        android:layout_below="@+id/buttonFinal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:visibility="invisible" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/editTextStatus"
+        android:layout_below="@+id/buttonUpdate"
+        android:layout_marginTop="63dp"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:background="@drawable/editround"
+        android:textColorHint="#ffffff"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:hint="@string/enterStatusHint" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:textColor="#0000ff"
+        android:background="@drawable/buttonselector"
+        android:id="@+id/buttonUpdating"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/editTextStatus"
+        android:layout_centerHorizontal="true" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/front"
+        android:elevation="20dp"
+        android:background="#90000000">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arrow1"
+            android:id="@+id/img"
+            android:rotation="-10"
+            android:layout_marginTop="-70dp"
+            android:layout_marginLeft="30dp"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="65dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Please Choose Your choice \n From here to move next"
+            android:id="@+id/textView124"
+            android:textColor="#C42828"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:layout_marginBottom="12dp"
+            android:layout_alignBottom="@+id/img"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+</RelativeLayout>

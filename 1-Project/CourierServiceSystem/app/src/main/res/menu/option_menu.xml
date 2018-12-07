@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_name3"
+        android:title="Shipment Status"
+        android:showAsAction="never"
+        android:orderInCategory="0"/>
+
+    <item
+        android:id="@+id/action_name4"
+        android:title="Payment Status"
+        android:showAsAction="never"
+        android:orderInCategory="0"/>
+
+</menu>

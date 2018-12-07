@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg2"
+    tools:context="com.ashi.courierservicesystem.UserHome">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Request For Receiving Courier"
+        android:id="@+id/buttonRequestForReceivingCourier"
+        android:layout_marginTop="54dp"
+        android:background="@drawable/buttonselector"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View All Courier Status"
+        android:id="@+id/buttonViewStatus"
+        android:background="@drawable/buttonselector"
+        android:layout_below="@+id/buttonRequestForReceivingCourier"
+        android:layout_marginTop="33dp"
+        android:layout_alignRight="@+id/buttonRequestForReceivingCourier"
+        android:layout_alignEnd="@+id/buttonRequestForReceivingCourier"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Courier ID and Details"
+        android:id="@+id/buttonCourierDetails"
+        android:layout_centerVertical="true"
+        android:background="@drawable/buttonselector"
+        android:layout_alignRight="@+id/buttonViewStatus"
+        android:layout_alignEnd="@+id/buttonViewStatus"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Track Your Item"
+        android:id="@+id/buttonTrackYourItem"
+        android:layout_above="@+id/buttonLogout"
+        android:background="@drawable/buttonselector"
+        android:layout_marginBottom="40dp"
+        android:layout_alignRight="@+id/buttonCourierDetails"
+        android:layout_alignEnd="@+id/buttonCourierDetails"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:background="@drawable/buttonselector"
+        android:id="@+id/buttonLogout"
+        android:layout_marginBottom="46dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/buttonTrackYourItem"
+        android:layout_alignEnd="@+id/buttonTrackYourItem"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+        </RelativeLayout>
+

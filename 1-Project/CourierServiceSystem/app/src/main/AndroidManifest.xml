@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.home_2.courierservicesystem">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Home" />
+        <activity android:name=".UserLogin" />
+        <activity android:name=".ServicePersonLogin" />
+        <activity android:name=".UserRegistration" />
+        <activity android:name=".UserHome" />
+        <activity android:name=".ServiceHome" />
+        <activity android:name=".notificationToServiceMan" />
+        <activity android:name=".RequestingForReceivingCourier" />
+        <activity android:name=".DriverUpdateStatusToAdmin" />
+        <activity android:name=".PaymentDetails" />
+        <activity android:name=".ViewPaymentDetails" />
+        <activity android:name=".viewUserStatus" />
+        <activity android:name=".ViewAllYourCouriers" />
+        <activity android:name=".TrackYourSingleItem" />
+        <activity android:name=".ShowCourierIdDetails" />
+        <activity android:name=".Front1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Front2" />
+        <activity android:name=".ViewCourierDetails" />
+        <activity android:name=".viewData" />
+        <activity android:name=".viewDetails" />
+        <activity android:name=".HintActivity"></activity>
+    </application>
+
+</manifest>

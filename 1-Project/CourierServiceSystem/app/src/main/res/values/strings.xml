@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">CourierServiceSystem</string>
+    <string name="user">User</string>
+    <string name="servicePerson">Service Person</string>
+    <string name="userName">User Name</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="registration">Registration</string>
+    <string name="viewNotification">View Notification</string>
+    <string name="updateStatus">Update Status</string>
+    <string name="paymentDetails">Payment Details</string>
+    <string name="logout">Logout</string>
+    <string name="senderNameHint">Sender Name</string>
+    <string name="senderAddressHint">Sender Address</string>
+    <string name="receiverNameHint">Receiver Name</string>
+    <string name="receiverAddressHint">Receiver Address</string>
+    <string name="materialTypeHint">Material Type</string>
+    <string name="materialWeightHint">Material Weight</string>
+    <string name="nextHint">Next</string>
+    <string name="enterStatusHint">Enter Your Status</string>
+    <string name="paid">Paid</string>
+    <string name="notPaid">Not Paid</string>
+    <string name="spinnerHeading">Payment Mode</string>
+    <string name="clientName">Client Name</string>
+    <string name="clientAddress">Client Address</string>
+    <string name="typeOfService">Type Of Service</string>
+    <string name="itemId">Item Id</string>
+    <string name="itemType">Item Type</string>>
+    <string name="itemWght">Item Weight</string>>
+    <string name="amountPayable">Amount Payable</string>
+    <string name="paymentStatus">Payment Status</string>
+    <string name="recievedBy">Amount Recieved By</string>
+    <string name="payMode">Payment Mode</string>
+    <string name="name">Name</string>>
+    <string-array name="spinnerList">
+        <item>Cash</item>
+        <item>Cheque</item>
+        <item>Online</item>
+    </string-array>
+    >
+</resources>
